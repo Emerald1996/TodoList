@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    font-family: sans-serif;
+    margin:10% auto;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,.9),red);
+    width: 50%;
+    height: 50vh;
+    border-radius: 10px;
+    overflow-y: scroll;
+    box-shadow: 0 0 10px red;
+}
+@media only screen and (min-width: 978px) {
+    .wrapper{
+        width: 20%;
+    }
+
+}
+h2{
+    text-align: center;
+    color: white;
+    margin-top: 5%;
+}
+.list_container{
+    padding: 5px;
+    margin: 10px;
+    width: 70%;
+    border-radius: 5px;
+    margin-top: 40px;
+   
+}
+
+li{
+    border: 1px solid red;
+    padding: 2px 0px;
+    background: linear-gradient(rgba(0,0,0,.9),red);
+    font-size: 14px;
+    border-radius: 5px;
+    
+}
+
+.lists,li{
+    list-style: none;
+    line-height: 40px;
+    margin-left: 6px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    color: white;
+    font-weight: 900;
+    
+}
+ .lists li span{
+ right: -80px;
+ position: absolute;
+ padding: 2px; 
+ width: 45px;
+ text-align: center;
+
+}
+.lists li:hover span{
+    right: 0px;
+    
+}
+
+.bx{
+    background-color: white;
+    cursor: pointer;
+}
+.bx:hover{
+    transform: translatey(-3px);
+    transition: .5s;
+}
+.clear{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 30px 0px;  
+}
+.clear_btn{
+    background-color: transparent;
+    color: white;
+    padding: 5px 8px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 7px;
+}
+.clear_btn:hover{
+    background: linear-gradient(rgba(0,0,0,.9),red);
+    transition: .5s ease-in;
+}
+p{
+    font-size: 10px;
+    text-align: center;
+}
+

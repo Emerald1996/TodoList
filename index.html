@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <title>TODO list</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h2>TODO APP</h2>
+        <div class="container">
+            <input type="text" class="list_container" id="todo_text" placeholder="Add a new TODO list">
+           <button class="btn" id="add_btn"><i class='bx bx-plus-medical' style='color:#46e017'  ></i></button>
+        </div>
+
+       <ul class="lists">
+        <li><span><i class='bx bxs-trash-alt' style='color:#e20c0c' ></i>
+        </span></li>
+       </ul>
+       <div class="clear">
+           <button class="clear_btn" onclick="clearAll()">clear all lists</button>
+       </div>
+       <p>&copy agimezelu emmanuel(emerald)</p>
+    </div>
+
+
+
+</body>
+    <script src="index.js"></script>
+</html>
