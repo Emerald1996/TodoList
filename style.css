@@ -91,7 +91,7 @@ li{
 }
 .clear_btn:hover{
     background: linear-gradient(rgba(0,0,0,.9),red);
-    transition: .5s ease-in;
+    transition: .6s ease-in;
 }
 p{
     font-size: 10px;

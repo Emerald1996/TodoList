@@ -1,4 +1,6 @@
-    #icons from boxicons
+ A simple todos app where you can add, delete and clear your lists.  
+   
+    #icons from https://boxicons.com
 
 
         #red

@@ -1,10 +1,10 @@
-const addListContainer = document.getElementById('todo_text')
+const addListContainer = document.getElementById('todo_texts')
 const addList = document.getElementById('add_btn')
 
 
 //click the add button
 addList.addEventListener('click',function (){
-    if(addListContainer.value.trim() != 0){ //.. where to input todo list is empty, dont add
+    if(addListContainer.value.trim() != 0){ //... where to input todo list is empty, dont add
         storedItems = JSON.parse(localStorage.getItem('localStorageItem'))
 
         if(storedItems === null){ //if localstorage is empty, the array shoulg be empty too until something is added
@@ -65,4 +65,6 @@ addList.addEventListener('click',function (){
        localStorage.clear()
        displayList()
     }
+
+    
   
